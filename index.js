@@ -6,3 +6,6 @@ const mod = (a, b) => a % b;
 const potencia = (a, b) => a ** b;
 
 export { sumar, restar, multiplicar, dividir, mod, potencia };
+
+
+//listo
