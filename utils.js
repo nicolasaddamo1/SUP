@@ -11,3 +11,9 @@ const resta = (a, b) => {
   }
   return a - b;
 };
+
+const multiply = (a) => {
+  return (b) => {
+    return a * b;
+  };
+};
