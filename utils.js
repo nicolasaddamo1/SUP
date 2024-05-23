@@ -17,3 +17,13 @@ const multiply = (a) => {
     return a * b;
   };
 };
+
+function dividir(a, b) {
+  if (typeof a !== "number" || typeof b !== "number") {
+    return "Solo puedes Dividir Numeros";
+  } else if (b === 0) {
+    return "No puedes dividir por 0";
+  } else {
+    return a / b;
+  }
+}
