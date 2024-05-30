@@ -7,4 +7,6 @@ const potencia = (a, b) => a ** b;
 
 export { sumar, restar, multiplicar, dividir, mod, potencia };
 
-console.log("LLegue");
+
+//listo
+//Ahora si
