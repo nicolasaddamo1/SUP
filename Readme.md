@@ -7,5 +7,3 @@
 - **Operaciones Básicas:** Suma, resta, multiplicación y división.
 - **Interfaz Simple:** Una interfaz fácil de usar para ingresar tus operaciones y ver los resultados.
 - **Colaboración en Grupo:** Este proyecto fue realizado en equipo, lo que garantiza su calidad y fiabilidad.
-
-## Hola
