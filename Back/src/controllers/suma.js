@@ -1,3 +1,4 @@
+
 import { AppDataSource } from "../config/data-source.js";
 const SumaRepository = AppDataSource.getRepository(Suma);
 

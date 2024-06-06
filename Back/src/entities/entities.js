@@ -1,6 +1,8 @@
 import { Entity, Column, PrimaryGeneratedColumn } from "typeorm";
 
+
 @Entity({name: "Suma"})
+
 export class Sumar {
   @PrimaryGeneratedColumn()
   id;
@@ -15,7 +17,9 @@ export class Sumar {
   resultado;
 }
 
+
 @Entity({name: "Resta"})
+
 export class Restar {
   @PrimaryGeneratedColumn()
   id;
@@ -30,7 +34,9 @@ export class Restar {
   resultado;
 }
 
+
 @Entity({name: "Multiplicacion"})
+
 export class Multiplicar {
   @PrimaryGeneratedColumn()
   id;
@@ -44,6 +50,7 @@ export class Multiplicar {
   @Column()
   resultado;
 }
+
 
 @Entity({name: "Division"})
 export class Dividir {
