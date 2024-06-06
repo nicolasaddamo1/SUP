@@ -1,0 +1,103 @@
+/* App.css */
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.calculator {
+  width: 400px;
+  margin:auto;
+}
+
+.calc-body {
+ width: 100%;
+  margin: auto;
+  min-height: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.calc-display {
+  background-color: #3A4655;
+  width: 90%;
+  height: 150px;
+  padding: 20px;
+  color: #fff;
+  text-align: right;
+  font-size: 35px;
+  border-radius: 5px;
+}
+.calc-operation {
+  text-align: right;
+  color: #727B86;
+  font-size: 21px;
+  padding-bottom: 10px;
+  border-bottom: dotted 1px;
+}
+.calc-typed{
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: right;
+  color: #fffefe;
+}
+
+.calc-button-row{
+  width: 100%;
+  background: #173357;
+}
+
+
+button {
+  width: 25%;
+  background: #425062;
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: middle;
+  border: solid 2px #495463;
+  /* border-bottom: solid 2px #3C4857; */
+
+  transition: all 0.2s ease-in-out;
+}
+.operator-btn{
+  color: #AEB3BA;
+  background: #404D5E;
+}
+.operator-btn:hover{
+  background: #797979;
+  color: #fff;
+}
+.clear-btn{
+  color: #c0c0c0;
+  background: #330202;
+}
+
+.clear-btn:hover{
+  background: #c01414;
+  color: #fff;
+}
+button:hover {
+  background: #E0B612;
+}
+
+.blink-me {
+  color: #ddc915;
+  animation: blink 0.5s infinite ease-in-out 0s;
+  transition: all 0.2s ease-in-out;
+}
+@keyframes blink {
+  0% {
+    opacity: 0.2;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+  
+}
